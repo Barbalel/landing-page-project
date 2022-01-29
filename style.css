@@ -1,4 +1,120 @@
-img {
-  width: 100px;
-  height: 100px;
+body {
+  margin: 0;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+/* content - hero */
+/* main */
+.main {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+.main img{
+  width: 50%;
+  height: 300px;
+  flex-shrink: 0;
+}
+.main-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.main button {
+  color: white;
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* secondary */
+.secondary {
+  text-align: center;
+  background-color: white;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+}
+.secondary .title {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.secondary img {
+  width: auto;
+  height: 150px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* inspiration*/
+.inspiration {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  padding: 75px 40px;
+}
+.quote {
+  font-style: italic;
+  text-align: start;
+}
+.author {
+  font-weight: bold;
+  text-align: end;
+}
+
+/* call */
+.call-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  padding: 50px 75px;
+  justify-content: space-between;
+}
+.call-text {
+  text-align: start;
+}
+.call-title {
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: center;
 }
